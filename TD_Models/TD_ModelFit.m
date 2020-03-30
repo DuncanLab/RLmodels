@@ -6,7 +6,7 @@ subjs = unique(v_choice(:,1));
 options = optimset('TolX', 0.00001, 'TolFun', 0.00001, 'MaxFunEvals', 900000000,'LargeScale','off', 'Algorithm', 'interior-point');
 
 num_start_pts = 5; % number of different starting points
-lower_bnd = [-20 0 ]; % bounds for 1 beta and 1 alpha and 1 lambda(novelty)
+lower_bnd = [-20 0 ]; % bounds for 1 beta and 1 alpha 
 upper_bnd = [20  1 ];
 
 % initiate output variables
